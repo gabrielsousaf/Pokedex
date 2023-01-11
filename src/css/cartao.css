@@ -1,0 +1,96 @@
+.cartao-pokemon{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: none;
+    border-radius: 10px;
+}
+
+.cartao-topo{
+    padding: 30px 40px 0;
+}
+
+.nome{
+    margin-top: 5px;
+}
+
+.tipo{
+    font-size: 12px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.detalhes{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-image{
+    width: 350px;
+    height: 350px;
+    
+}
+
+.cartao-pokemon img{
+    max-height: 100%;
+}
+
+.cartao-informacoes{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px ;
+}
+
+.cartao-informacoes h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6B727A;
+}
+
+.status, .habilidades{
+    padding: 0 10px;
+    width: 180px;
+}
+
+.habilidades ul li, .status ul li{
+    border-bottom:  1px solid #c3c4c5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-pokemon.aberto {
+    display: block;
+}
+
+.tipo-fogo {
+    background-color: #ED8A8B;
+}
+
+.tipo-eletrico{
+    background-color: #FCC719;
+}
+
+.tipo-agua{
+    background-color: #76befe;
+}
+
+.tipo-grama{
+    background-color: #49d0b0;
+}
+
+.tipo-trevas{
+    background-color: #ba68c8;
+}
+
+.tipo-dragao{
+    background-color: #c29791;
+}
